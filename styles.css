@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: aqua; */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 0 100px;
+  height: 70px;
+  font-size: 18px;
+  word-wrap: normal;
+  text-align: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9faf8;
+  align-self: center;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  padding: 100px;
+  gap: 50px;
+  color: #f9faf8;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 90%;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+img {
+  flex: 0 1 auto;
+  width: 50%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.wrap {
+  flex: 1;
+  height: 100%;
+}
+
+button {
+  flex: 0 0 auto;
+  align-self: center; /* prevents button from groing as flex item */
+  color: inherit;
+  background-color: #3882f6;
+  padding: 8px 24px;
+  font-size: 18px;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  gap: 10px;
+}
+
+.card-wrap {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.information {
+  padding: 100px 0;
+  width: 70%;
+  margin: auto;
+}
+
+.information > * {
+  text-align: center;
+}
+
+.card img {
+  flex: 1;
+  width: 100%;
+  /* width: 200px; */
+  /* object-fit: cover; */
+  border: 2px solid #1f2937;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 50px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  padding: 100px 0;
+}
+
+.quote p {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.quote-by {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: initial;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 5px;
+  margin: 100px 100px;
+  padding: 40px 100px;
+  color: #f9faf8;
+  gap: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 70px;
+}
